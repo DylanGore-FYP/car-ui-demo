@@ -15,10 +15,10 @@ jobs:
       - name: Install/update pip and reqirements
         run: |
           python3 -m pip install --upgrade pip
-          python3 -m pip install -r requirements
+          python3 -m pip install -r requirements.txt
       - name: Run isort
-        run: isort --check demo_ui.py
+        run: python3 -m isort --check demo_ui.py
       - name: Run pylint
-        run: pipenv run pylint demo_ui.py --fail-under 9.5
+        run: python3 -m pylint demo_ui.py --fail-under 9.5
       - name: Run flake8
-        run: pipenv run flake8 --max-line-length 120
+        run: python3 -m flake8 --max-line-length 120
