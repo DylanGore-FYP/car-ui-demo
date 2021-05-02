@@ -1,1 +1,4 @@
 eel
+isort
+flake8
+pylint

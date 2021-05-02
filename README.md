@@ -8,6 +8,8 @@
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/DylanGore-FYP/car-ui-demo/Lint%20Code?label=Lint%20Status&logo=github&style=for-the-badge)](https://github.com/DylanGore-FYP/car-ui-demo/actions/workflows/lint.yml)
+
 A proof of concept and demonstration UI for the in-vehicle portion of the project - [https://github.com/DylanGore-FYP/Car](https://github.com/DylanGore-FYP/Car).
 
 ## Requirements
